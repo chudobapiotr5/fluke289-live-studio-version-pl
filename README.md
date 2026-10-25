@@ -1,4 +1,6 @@
-# Fluke 289 Live Studio 1.7.0
+# Fluke 289 Live Studio 1.7.0 
+
+**Język interfejsu: polski. / Interface language: Polish.**
 
 Wolne oprogramowanie do współpracy z fizycznym Fluke 289 na GNU/Linux: podgląd odczytów, bargraf, automatyczny widok MIN MAX, wykresy, zoom, znaczniki A/B, zapis CSV/SQLite z czasomierzem, pobieranie pamięci Fluke, biblioteka pomiarów i porównanie nagrań z raportem PDF/CSV. Niezależny projekt; nie jest produktem ani oficjalnym oprogramowaniem Fluke.
 
