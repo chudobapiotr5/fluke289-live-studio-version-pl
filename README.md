@@ -73,3 +73,21 @@ W programie otwórz **O programie**. Dokumentacja, licencja, autorstwo, build i 
 Diagnostyka jawnie zapisuje log do wskazanej bazy. Zwykłe połączenie w GUI nie tworzy plików pomiarowych, dopóki sam nie włączysz zapisu. Pliki mogą zawierać numer seryjny miernika i pomiary; paczka źródeł nie zawiera sesji użytkownika ani środowiska `.venv`.
 
 Bieżący kod i dokumentacja są przygotowane do udostępnienia, ale nie zostały automatycznie opublikowane w żadnym publicznym repozytorium.
+
+
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-59-29" src="https://github.com/user-attachments/assets/562606c2-eb11-42e8-ad68-cf2c47e67c08" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-59-12" src="https://github.com/user-attachments/assets/b66f56d4-8795-4d44-9545-033c5b386508" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-59-04" src="https://github.com/user-attachments/assets/5c3f46c9-660a-4ce4-9847-82128f2b444f" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-58-54" src="https://github.com/user-attachments/assets/648f25dc-7851-4fc2-8ebc-e97e3eb4b6de" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-58-41" src="https://github.com/user-attachments/assets/d44afc22-a313-49e4-8de5-5bf8222b74eb" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-58-33" src="https://github.com/user-attachments/assets/e80fad69-95af-4762-b831-6e57317fcb00" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-58-09" src="https://github.com/user-attachments/assets/f2bd6137-e6c8-4ed9-9662-453d3b05f54b" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-57-55" src="https://github.com/user-attachments/assets/6988abb8-c684-4c8d-83c7-6a650aff6113" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-57-00" src="https://github.com/user-attachments/assets/9fd4ec30-5635-435f-b34c-8a34779af93a" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-56-19" src="https://github.com/user-attachments/assets/862c6ef8-2083-4ee4-9e3f-5d898514dfc0" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-55-43" src="https://github.com/user-attachments/assets/cf768f01-54b5-46e4-bc4c-b106f1c4139a" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-55-35" src="https://github.com/user-attachments/assets/d00302c8-e95a-4948-bb03-2a012292a2eb" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-54-30" src="https://github.com/user-attachments/assets/2ba9867a-02d0-4262-a4b4-358b9c739058" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-54-08" src="https://github.com/user-attachments/assets/7d1f9da1-2783-4f4c-bffd-bc2288c8eae5" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-53-43" src="https://github.com/user-attachments/assets/1b4ca237-3936-4b5c-a3be-bd952f5fe6de" />
+<img width="3440" height="1245" alt="Bildschirmfoto vom 2026-10-25 20-50-36" src="https://github.com/user-attachments/assets/1f4370e0-a895-4c6b-b752-aeb3d1a20f78" />
