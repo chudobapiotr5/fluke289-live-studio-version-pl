@@ -1,4 +1,4 @@
-# Fluke 289 Live Studio 1.7.0 
+# Fluke 289 Live Studio 1.7.0 — PL version
 
 **Język interfejsu: polski. / Interface language: Polish.**
 
