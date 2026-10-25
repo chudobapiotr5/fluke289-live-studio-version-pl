@@ -1,0 +1,5 @@
+include COPYING AUTHORS.md THIRD_PARTY.md CHANGELOG.md README.md DIAGNOSTYKA.md TESTY.txt pyproject.toml uruchom.sh
+recursive-include docs *.md
+recursive-include tests *.py
+recursive-include tools *.py
+recursive-include fluke289/data *

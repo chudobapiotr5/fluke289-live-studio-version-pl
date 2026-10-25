@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fluke289-live"
+dynamic = ["version"]
+description = "Fluke 289 Live Studio: read-only measurements, plots and optional logging"
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+authors = [{name = "Piotr"}]
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)", "Operating System :: POSIX :: Linux"]
+requires-python = ">=3.12"
+dependencies = ["pyserial>=3.5,<4"]
+
+[project.scripts]
+fluke289 = "fluke289.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["fluke289*"]
+
+[tool.setuptools]
+license-files = ["COPYING"]
+
+[tool.setuptools.dynamic]
+version = {attr = "fluke289.__version__"}
+
+[tool.setuptools.package-data]
+fluke289 = ["data/*"]

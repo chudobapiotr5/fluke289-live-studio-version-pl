@@ -1,0 +1,110 @@
+Fluke 289 Live Studio 1.7.0
+Data UTC: 2026-10-25
+Środowisko: Ubuntu 26.04.1 LTS; Python 3.14.4
+Testy automatyczne: 96, OK
+
+test_author_version_credit_and_no_fake_repo (test_about.ReleaseDocumentationTests.test_author_version_credit_and_no_fake_repo) ... ok
+test_offline_license_and_all_documents_exist (test_about.ReleaseDocumentationTests.test_offline_license_and_all_documents_exist) ... ok
+test_all_function_tokens_preserved (test_app.ProtocolTests.test_all_function_tokens_preserved) ... ok
+test_bad_frames (test_app.ProtocolTests.test_bad_frames) ... ok
+test_official_examples (test_app.ProtocolTests.test_official_examples) ... ok
+test_overload_not_numeric (test_app.ProtocolTests.test_overload_not_numeric) ... ok
+test_unknown_tokens_preserved (test_app.ProtocolTests.test_unknown_tokens_preserved) ... ok
+test_export_and_invalid_value (test_app.StorageWorkerTests.test_export_and_invalid_value) ... ok
+test_reconnect_after_failure (test_app.StorageWorkerTests.test_reconnect_after_failure) ... ok
+test_storage_failure_is_fatal (test_app.StorageWorkerTests.test_storage_failure_is_fatal) ... ok
+test_worker_real_serial_and_stop (test_app.StorageWorkerTests.test_worker_real_serial_and_stop) ... ok
+test_ack_errors (test_app.TransportTests.test_ack_errors) ... ok
+test_fragmented_crlf_and_identity (test_app.TransportTests.test_fragmented_crlf_and_identity) ... ok
+test_timeout_and_other_model (test_app.TransportTests.test_timeout_and_other_model) ... ok
+test_actual_bargraph_priority_hold_and_errors (test_bargraph.BarTests.test_actual_bargraph_priority_hold_and_errors) ... ok
+test_real_scale_and_live_fallback (test_bargraph.BarTests.test_real_scale_and_live_fallback) ... ok
+test_signed_and_unsupported (test_bargraph.BarTests.test_signed_and_unsupported) ... ok
+test_automatic_match_enables_comparison_after_both_files (test_comparison.ComparisonTests.test_automatic_match_enables_comparison_after_both_files) ... ok
+test_defaults_match_primary_despite_wire_order (test_comparison.ComparisonTests.test_defaults_match_primary_despite_wire_order) ... ok
+test_different_units_rejected (test_comparison.ComparisonTests.test_different_units_rejected) ... ok
+test_gap_kept (test_comparison.ComparisonTests.test_gap_kept) ... ok
+test_meter_clock_and_shift_preserve_values_and_sources (test_comparison.ComparisonTests.test_meter_clock_and_shift_preserve_values_and_sources) ... ok
+test_relative_alignment (test_comparison.ComparisonTests.test_relative_alignment) ... ok
+test_summary_exact_shift_and_tolerance (test_comparison.ComparisonTests.test_summary_exact_shift_and_tolerance) ... ok
+test_summary_limited_nearest_pair_and_worst (test_comparison.ComparisonTests.test_summary_limited_nearest_pair_and_worst) ... ok
+test_summary_never_reuses_point_and_ignores_invalid (test_comparison.ComparisonTests.test_summary_never_reuses_point_and_ignores_invalid) ... ok
+test_summary_no_overlap (test_comparison.ComparisonTests.test_summary_no_overlap) ... ok
+test_csv_preserves_pairs_settings_and_formula_safe_names (test_comparison_report.ReportTests.test_csv_preserves_pairs_settings_and_formula_safe_names) ... ok
+test_csv_settings_and_adjusted_time (test_comparison_report.ReportTests.test_csv_settings_and_adjusted_time) ... ok
+test_export_cannot_overwrite_measurement_source (test_comparison_report.ReportTests.test_export_cannot_overwrite_measurement_source) ... ok
+test_failed_export_keeps_existing_file (test_comparison_report.ReportTests.test_failed_export_keeps_existing_file) ... ok
+test_pdf_real_cairo_and_no_source_changes (test_comparison_report.ReportTests.test_pdf_real_cairo_and_no_source_changes) ... ok
+test_pdf_without_overlap_is_explicit (test_comparison_report.ReportTests.test_pdf_without_overlap_is_explicit) ... ok
+test_explicit_gap_survives_csv_even_short_pause (test_csv_gaps.GapTests.test_explicit_gap_survives_csv_even_short_pause) ... ok
+test_legacy_gap_uses_sampling_cadence (test_csv_gaps.GapTests.test_legacy_gap_uses_sampling_cadence) ... ok
+test_sqlite_export_preserves_error_marker (test_csv_gaps.GapTests.test_sqlite_export_preserves_error_marker) ... ok
+test_identical_live_csv_sqlite_and_export_readback (test_display.ExactDisplayTests.test_identical_live_csv_sqlite_and_export_readback) ... ok
+test_meter_decimals_prefix_and_trailing_zeros (test_display.ExactDisplayTests.test_meter_decimals_prefix_and_trailing_zeros) ... ok
+test_engineering_units_and_readable_ticks (test_history.ChartReadabilityTests.test_engineering_units_and_readable_ticks) ... ok
+test_tooltip_only_near_point_with_time_and_unit (test_history.ChartReadabilityTests.test_tooltip_only_near_point_with_time_and_unit) ... ok
+test_bad_input (test_history.HistoryTests.test_bad_input) ... ok
+test_both_saved_formats_open_inside_app (test_history.HistoryTests.test_both_saved_formats_open_inside_app) ... ok
+test_gap_and_invalid (test_history.HistoryTests.test_gap_and_invalid) ... ok
+test_segments_and_bound (test_history.HistoryTests.test_segments_and_bound) ... ok
+test_plot_does_not_join_across_ol_or_disconnect (test_history.PlotTests.test_plot_does_not_join_across_ol_or_disconnect) ... ok
+test_changed_file_refresh_updates_metadata (test_library.LibraryTests.test_changed_file_refresh_updates_metadata) ... ok
+test_index_metadata_duplicate_label_and_remove_preserve_file (test_library.LibraryTests.test_index_metadata_duplicate_label_and_remove_preserve_file) ... ok
+test_memory_header_duration_and_source (test_library.LibraryTests.test_memory_header_duration_and_source) ... ok
+test_scan_skips_reports_and_recursion_is_optional (test_library.LibraryTests.test_scan_skips_reports_and_recursion_is_optional) ... ok
+test_sqlite_and_missing_file_kept_in_index (test_library.LibraryTests.test_sqlite_and_missing_file_kept_in_index) ... ok
+test_meter_flag_controls_icon_not_measured_number (test_lightning.LightningTests.test_meter_flag_controls_icon_not_measured_number) ... ok
+test_actual_sample_values_signed_difference_and_copy (test_markers.MarkerTests.test_actual_sample_values_signed_difference_and_copy) ... ok
+test_armed_click_and_marker_drag_do_not_pan (test_markers.MarkerTests.test_armed_click_and_marker_drag_do_not_pan) ... ok
+test_click_snaps_to_real_sample_and_overlay_survives_zoom (test_markers.MarkerTests.test_click_snaps_to_real_sample_and_overlay_survives_zoom) ... ok
+test_scope_change_and_invalid_readings (test_markers.MarkerTests.test_scope_change_and_invalid_readings) ... ok
+test_cancel_and_truncated_headers (test_memory.MemoryTests.test_cancel_and_truncated_headers) ... ok
+test_counts_and_swapped_double_without_rounding (test_memory.MemoryTests.test_counts_and_swapped_double_without_rounding) ... ok
+test_list_and_saved_snapshot_to_history (test_memory.MemoryTests.test_list_and_saved_snapshot_to_history) ... ok
+test_real_serial_binary_framing_preserves_embedded_cr (test_memory.MemoryTests.test_real_serial_binary_framing_preserves_embedded_cr) ... ok
+test_recording_preserves_accumulator_without_fake_average (test_memory.MemoryTests.test_recording_preserves_accumulator_without_fake_average) ... ok
+test_saved_copy_roundtrip_and_meter_clock_source (test_memory.MemoryTests.test_saved_copy_roundtrip_and_meter_clock_source) ... ok
+test_worker_exclusively_pauses_live_for_memory (test_memory.MemoryTests.test_worker_exclusively_pauses_live_for_memory) ... ok
+test_cancel_destination_does_not_start_transfer (test_memory_save.MemorySaveTests.test_cancel_destination_does_not_start_transfer) ... ok
+test_chosen_destination_receives_full_archive (test_memory_save.MemorySaveTests.test_chosen_destination_receives_full_archive) ... ok
+test_failure_keeps_download_for_retry (test_memory_save.MemorySaveTests.test_failure_keeps_download_for_retry) ... ok
+test_auto_blocks_zoom_manual_accumulates (test_mini_chart.MiniInteractionTests.test_auto_blocks_zoom_manual_accumulates) ... ok
+test_tooltip_snaps_by_time_even_far_from_line (test_mini_chart.MiniInteractionTests.test_tooltip_snaps_by_time_even_far_from_line) ... ok
+test_connection_gap_preserved (test_mini_chart.PreviewTests.test_connection_gap_preserved) ... ok
+test_minute_current_segment_and_invalid_values (test_mini_chart.PreviewTests.test_minute_current_segment_and_invalid_values) ... ok
+test_elapsed_not_host_clock (test_minmax.MinMaxTests.test_elapsed_not_host_clock) ... ok
+test_meter_values_order_and_elapsed (test_minmax.MinMaxTests.test_meter_values_order_and_elapsed) ... ok
+test_normal_mode_missing_fields_and_ol (test_minmax.MinMaxTests.test_normal_mode_missing_fields_and_ol) ... ok
+test_elapsed_format_minutes_hours_days_and_rounding (test_point_navigation.PointTests.test_elapsed_format_minutes_hours_days_and_rounding) ... ok
+test_elapsed_toggle_never_modifies_timestamp (test_point_navigation.PointTests.test_elapsed_toggle_never_modifies_timestamp) ... ok
+test_memory_origin_is_header_start_not_first_extremum (test_point_navigation.PointTests.test_memory_origin_is_header_start_not_first_extremum) ... ok
+test_origin_survives_live_history_eviction (test_point_navigation.PointTests.test_origin_survives_live_history_eviction) ... ok
+test_point_table_displays_selected_snapshot_not_latest (test_point_navigation.PointTests.test_point_table_displays_selected_snapshot_not_latest) ... ok
+test_steps_are_chronological_without_wrap_or_interpolation (test_point_navigation.PointTests.test_steps_are_chronological_without_wrap_or_interpolation) ... ok
+test_csv_never_silently_overwrites_existing_data (test_recording.RecordingTests.test_csv_never_silently_overwrites_existing_data) ... ok
+test_file_error_does_not_kill_preview (test_recording.RecordingTests.test_file_error_does_not_kill_preview) ... ok
+test_preview_never_opens_measurement_files (test_recording.RecordingTests.test_preview_never_opens_measurement_files) ... ok
+test_record_stop_responsive_with_long_poll_interval (test_recording.RecordingTests.test_record_stop_responsive_with_long_poll_interval) ... ok
+test_start_stop_csv_then_sqlite_without_disconnect (test_recording.RecordingTests.test_start_stop_csv_then_sqlite_without_disconnect) ... ok
+test_write_error_stops_only_recording (test_recording.RecordingTests.test_write_error_stops_only_recording) ... ok
+test_expiry_closes_file_and_keeps_preview_worker_running (test_recording_timer.TimerTests.test_expiry_closes_file_and_keeps_preview_worker_running) ... ok
+test_invalid_duration_creates_no_file (test_recording_timer.TimerTests.test_invalid_duration_creates_no_file) ... ok
+test_manual_stop_cancels_deadline_and_restart_without_limit (test_recording_timer.TimerTests.test_manual_stop_cancels_deadline_and_restart_without_limit) ... ok
+test_renderer_error_is_reported_without_thread_crash (test_trace_renderer.AsyncTraceTests.test_renderer_error_is_reported_without_thread_crash) ... ok
+test_rendering_does_not_block_navigation_and_latest_frame_wins (test_trace_renderer.AsyncTraceTests.test_rendering_does_not_block_navigation_and_latest_frame_wins) ... ok
+test_bad_image_size (test_trace_renderer.TraceTests.test_bad_image_size) ... ok
+test_real_cairo_renders_png (test_trace_renderer.TraceTests.test_real_cairo_renders_png) ... ok
+test_linux_wheel_and_drag_handlers (test_viewport.NavigationTests.test_linux_wheel_and_drag_handlers) ... ok
+test_minimum_width_and_live_eviction (test_viewport.NavigationTests.test_minimum_width_and_live_eviction) ... ok
+test_outside_plot_does_not_zoom (test_viewport.NavigationTests.test_outside_plot_does_not_zoom) ... ok
+test_wheel_burst_accumulates_before_redraw (test_viewport.NavigationTests.test_wheel_burst_accumulates_before_redraw) ... ok
+test_zoom_keeps_cursor_time_and_clamps (test_viewport.NavigationTests.test_zoom_keeps_cursor_time_and_clamps) ... ok
+
+----------------------------------------------------------------------
+Ran 96 tests in 4.310s
+
+OK
+
+Odbiór fizycznego miernika: wybrane funkcje potwierdził Piotr na Fluke 289 V1.41.
+Pełny zakres i ograniczenia: docs/WALIDACJA.md.
+Nie wykonano pełnego odbioru Ubuntu 24.04 ani automatycznego odbioru wizualnego GUI.
